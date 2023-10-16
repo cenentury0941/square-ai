@@ -1,0 +1,8 @@
+.Slide {
+    display: flex;
+    height: 95%;
+    width: 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-snap-type: proximity;
+}

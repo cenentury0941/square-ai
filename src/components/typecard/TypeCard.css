@@ -1,0 +1,56 @@
+.TypeCard-Main-Container {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    width: 25vw;
+    border-radius: 15px;
+    background-color: #f9ede1;
+    border: 2px solid #9b7955;
+    transition-duration: 0.1s;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+.TypeCard-Main-Container:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px black;
+}
+
+.TypeCard-Main-Container:active {
+    transform: scale(1.04);
+    background-color: #e6dbd0;
+}
+
+.TypeCard-Title {
+    display: flex;
+    height: 39%;
+    width: 100%;
+    font-size: 2.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #694520;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 3%;
+}
+
+.TypeCard-Divider {
+    display: flex;
+    height: 2px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9b7955;
+}
+
+.TypeCard-Content {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    font-size: 1rem;
+    color: #000;
+    text-align: start;
+    box-sizing: border-box;
+    padding: 3%;
+}

@@ -1,0 +1,188 @@
+
+
+.Home-Horizontal-Divider {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.Home-Title-Container {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 25%;
+    margin-bottom: -3%;
+}
+
+
+.Home-Sub-Title-Container {
+    display: flex;
+    width: 100%;
+    height: 7%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 7%;
+}
+
+.Home-Sub-Title-No-Padding{
+    padding: 0;
+}
+
+
+.Home-Vertical-Container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-Logo {
+    display: flex;
+    height: 80%;
+    aspect-ratio: 1;
+    background-image: url("../../images/logo_orange_alpha.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Home-Title {
+    color: #4e272f;
+    font-family: Georgia;
+    font-size: 6rem;
+}
+
+.Home-Sub-Title {
+    color: #4e272f;
+    font-size: 2.5rem;
+}
+
+.Home-Button-Container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 39%;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-No-Margin {
+    margin: 0%;
+}
+
+.Home-Heading {
+    display: flex;
+    color: #4e272f;
+    font-size: 3.9rem;
+    width: 100%;
+    justify-content: start;
+    margin-bottom: 5vmin;
+}
+.Home-Heading-Center{
+    justify-content: center;
+    width: 50%;
+}
+
+.Home-Content {
+    color: #4e272f;
+    font-size: 1.5rem;
+    margin: 0.5vmin;
+    overflow: hidden;
+    align-items: start;
+    text-align: justify;
+}
+
+.Home-Content-Center {
+    width: 80%;
+    color: #4e272f;
+    font-size: 1.5rem;
+    margin: 0.5vmin;
+    overflow: hidden;
+    align-items: start;
+    text-align: center;
+}
+
+.Home-Content-Container {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-Definition-Image {
+    display: flex;
+    width: 80%;
+    aspect-ratio: 2.8;
+    background-image: url("../../images/definition.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+    justify-self: center;
+    align-items: center;
+    margin-top: 25%;
+}
+
+.Home-Flow-Image {
+    display: flex;
+    width: 80%;
+    aspect-ratio: 1.5;
+    background-image: url("../../images/flow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 15px;
+    justify-self: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.Home-Down-Arrow {
+    display: flex;
+    height: 8vmin;
+    width: 100%;
+    position: fixed;
+    bottom: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../../images/down_arrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: Down-Arrow-Anim 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Down-Arrow-Anim {
+    0%, 100% { transform: translateY(1vh); }
+    50% { transform: translateY(0vmin); }
+}
+
+.Footpath-Background{
+    background-image: url("../../images/path.png");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.Footpath2-Background{
+    background-image: url("../../images/path2.png");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}

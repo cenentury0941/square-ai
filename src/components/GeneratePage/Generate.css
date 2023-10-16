@@ -1,0 +1,70 @@
+.Generate-Main-Container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-image: linear-gradient( to top left , #cba781 , #F9F5E7 );
+    overflow: hidden;
+}
+
+.Generate-Vertical-Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.Generate-Show-Slide--1 {
+    transform: translateY(-0%);
+}
+
+.Generate-Show-Slide-0 {
+    transform: translateY(-16.6%);
+}
+
+.Generate-Show-Slide-1 {
+    transform: translateY(-33.2%);
+}
+
+.Generate-Show-Slide-2 {
+    transform: translateY(-49.8%);
+}
+
+.Generate-Show-Slide-3 {
+    transform: translateY(-66.6%);
+}
+
+.Generate-Show-Slide-4 {
+    transform: translateY(-83.5%);
+}
+
+.Generate-Slide {
+    display: flex;
+    height: 100vh;
+    width: 95%;
+    box-sizing: border-box;
+    padding: 3%;
+}
+
+.Generate-Slide-Title {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4e272f;
+    font-weight: 550;
+}
+
+.Generate-Slide-Content {
+    font-size: 1.5rem;
+    margin-top: 1vmin;
+}

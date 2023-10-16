@@ -1,0 +1,46 @@
+.Generate-Slide2-Main-Container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.Generate-Slide2-Overview-Container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 65%;
+    width: 90%;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow-y: scroll;
+    padding: 1%;
+    background-color: #f9ede1;
+    border: 2px solid #9b7955;
+    border-radius: 15px;
+    color:"warning";
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Generate-Slide2-Button-Row {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Generate-Slide2-Loader-Container{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000a;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,10 @@
+
+.Generate-Slide0-web-design-image {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    background-image: url("../../images/web_design.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

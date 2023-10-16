@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.Main-Container {
+  display: flex;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient( to top left , #cba781 , #F9F5E7 );
+  overflow-y: scroll;
+  flex-direction: column;
+  scroll-behavior: auto;
+  scroll-snap-type: y mandatory;
+}
